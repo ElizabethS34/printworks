@@ -169,6 +169,7 @@ class DefaultController extends Controller
       // retrieve the session
       $session = Craft::$app->session;
 
+      /*
       // check for the basket
       if($session->has('basket')){
         // there is a basket, let's retrieve it
@@ -197,6 +198,7 @@ class DefaultController extends Controller
 
       // set the basket in the session
       $session->set('basket', $basket);
+      */
 
       // return the url of the basket page. the callback in the js of the personaliser redirects the user
       return getenv('PRIMARY_SITE_URL') . 'product/' . $productEntry['slug'];
