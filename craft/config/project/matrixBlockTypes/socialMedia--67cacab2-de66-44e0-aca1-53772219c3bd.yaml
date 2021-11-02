@@ -1,0 +1,108 @@
+field: 2cdd60ce-a5d4-466f-a8d0-067ef43bfcab # Social Media
+fieldLayouts:
+  83ebefff-11a4-456d-996f-8d2d0845ead6:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9a19adab-3d34-4cc8-9079-840d4464464a # Social Logo
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: cac025b7-1c59-4e0a-84e8-f1f1f2f4bacd # Social Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 23121f33-a52f-4e59-8b04-542d354876b8 # Social Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  9a19adab-3d34-4cc8-9079-840d4464464a: # Social Logo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: socialLogo
+    instructions: ''
+    name: 'Social Logo'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  23121f33-a52f-4e59-8b04-542d354876b8: # Social Link
+    columnSuffix: sxomjbqt
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: socialLink
+    instructions: ''
+    name: 'Social Link'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  cac025b7-1c59-4e0a-84e8-f1f1f2f4bacd: # Social Name
+    columnSuffix: syjwkopl
+    contentColumnType: text
+    fieldGroup: null
+    handle: socialName
+    instructions: ''
+    name: 'Social Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: socialMedia
+name: 'Social Media'
+sortOrder: 1

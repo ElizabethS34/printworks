@@ -1,0 +1,29 @@
+{% extends "_layout" %}
+
+{% block content %}
+
+{% set searchQuery = craft.app.request.getParam('q') %}
+
+{% set products = craft.entries()
+  .search(searchQuery)
+  .orderBy('score')
+  .all() %}
+
+{% if products|length %}
+<div class="display-heading">{{ products|length }} Search results:</div>
+  <ul>
+      <div class="full-product-display">
+        <div class="flex flex-wrap justify-center ">
+        {% for product in products %}
+
+          {% include "partials/product-card" %}
+
+        {% endfor %}
+        </div>
+      </div>
+  </ul>
+  {% else %}
+    <div class="display-heading mb-10 rounded-lg">Your search for “{{ searchQuery }}” didn’t return any products.</div>
+  {% endif %}
+
+{% endblock %}

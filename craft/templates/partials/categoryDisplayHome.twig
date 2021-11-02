@@ -1,0 +1,17 @@
+{% set productCategories = craft.categories.group('productCategories').level(1).all() %}
+
+
+<div class="display-heading">Product Categories</div>
+  <div class="full-product-display">
+  <div class="flex flex-wrap justify-center ">
+    {% for productCategory in productCategories %}
+
+      {% if productCategory.visibleOnHomepage %}
+
+        {% include "partials/category-card" %}
+
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+{% set displayIcons = entry.icons.all() ?? null %}
+
+  {% if displayIcons | length %}
+  <div class="icon-heading">Our Services</div>
+      <div class="full-icon-display">
+        <div class="flex flex-wrap justify-center ">
+        {% for icon in displayIcons %}
+
+        {% set image = icon.iconImage.one() ?? null %}
+          <div class="icon-card-display">
+            <div class="icon-card">
+            {% if image %}
+              <img class="icon-image" src="{{ image.getUrl() }}" />
+            {% endif %}
+              <div class="icon-text">
+                {{icon.iconText}}
+              </div>
+            </div>
+          </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}

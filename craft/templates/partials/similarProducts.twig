@@ -1,0 +1,22 @@
+  <div class="related-Heading">Similar Products</div>
+    <div class="related-items-display">
+    <div class="flex flex-wrap justify-center ">
+    {% set productCategories = entry.productCategories.all() %}
+  {% set products = craft.entries.section('product').relatedTo(productCategories).orderBy('score').limit(6).all() %}
+      {% for product in products %}
+                <div class="related-card-display" onclick="window.location='{{product.url}}'">
+                  <div class="item-card">
+                  {% if product.productImageUrl %}
+                    <img class="item-image" src="{{ product.productImageUrl }}" >
+                  {% else %}
+                    {% set productImage = product.productImage.one() %}
+                    <img class="item-image" src="{{ productImage.url }}" >
+                  {% endif %}
+                  <div class="item-info">
+                    <h2>{{ product.productTitle}}</h2>
+                  </div>
+                  </div>
+                </div>         
+      {% endfor %}
+      </div>
+      </div>

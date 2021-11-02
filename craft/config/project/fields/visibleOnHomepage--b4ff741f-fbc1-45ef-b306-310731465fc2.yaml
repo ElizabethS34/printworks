@@ -1,0 +1,14 @@
+columnSuffix: wxqjxgqi
+contentColumnType: boolean
+fieldGroup: ea389470-904f-4f5c-b20f-f8b274a93528 # Navigation
+handle: visibleOnHomepage
+instructions: 'N/A for cateogories below the first level'
+name: 'Visible on homepage'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Invisible on Homepage'
+  onLabel: 'Visible on Homepage'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

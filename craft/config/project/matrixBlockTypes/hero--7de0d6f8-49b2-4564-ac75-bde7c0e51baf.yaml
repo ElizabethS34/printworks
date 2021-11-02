@@ -1,0 +1,207 @@
+field: f1cc3743-7bcf-4e76-a0c1-4a205a039a63 # Hero
+fieldLayouts:
+  96c8dc9a-4c51-4195-af33-b4418c937db1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c6d77613-fc65-4874-af21-f8f8fd8f0a42 # Hero Header
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5d961463-4b41-49dc-9664-43ba2f121d06 # Hero Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a8253c00-cccc-420a-a37e-0a3d131ffaf8 # Hero Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 56e9984e-56b5-439f-a72c-ee4e985c4189 # Related Entry
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0f4b1a1c-c136-435d-b1e1-757a42a47698 # related Category
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 92c4e083-8ee0-4461-a098-8d4baa858dcc # Button Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0f4b1a1c-c136-435d-b1e1-757a42a47698: # related Category
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: relatedCategory
+    instructions: ''
+    name: 'related Category'
+    searchable: false
+    settings:
+      allowLimit: false
+      allowMultipleSources: false
+      allowSelfRelations: false
+      branchLimit: '1'
+      limit: null
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: 'group:9b4b470b-79d7-4ead-8db5-f455e655cc91' # Product Categories
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Categories
+  5d961463-4b41-49dc-9664-43ba2f121d06: # Hero Subtitle
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heroSubtitle
+    instructions: ''
+    name: 'Hero Subtitle'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  56e9984e-56b5-439f-a72c-ee4e985c4189: # Related Entry
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: relatedEntry
+    instructions: ''
+    name: 'Related Entry'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  92c4e083-8ee0-4461-a098-8d4baa858dcc: # Button Text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonText
+    instructions: ''
+    name: 'Button Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a8253c00-cccc-420a-a37e-0a3d131ffaf8: # Hero Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroImage
+    instructions: ''
+    name: 'Hero Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+      defaultUploadLocationSubpath: '{owner.slug}'
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c6d77613-fc65-4874-af21-f8f8fd8f0a42: # Hero Header
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heroHeader
+    instructions: ''
+    name: 'Hero Header'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'LSi Ltd'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: hero
+name: Hero
+sortOrder: 1

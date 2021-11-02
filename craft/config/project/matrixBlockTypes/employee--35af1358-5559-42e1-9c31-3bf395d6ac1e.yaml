@@ -1,0 +1,112 @@
+field: 3dd726d8-e336-4d91-a3ce-460a18efe4f7 # Employees
+fieldLayouts:
+  c25fd103-1c42-4d95-943a-0c29777eed01:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 541db9c2-6c4f-40cb-a42a-9c0f9b91e38c # Employee Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2b21e584-2e01-4547-8010-5c404669c74d # Role
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: cc72f422-91e1-4d73-8ef3-90f2f0e0e017 # Profile Pic
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2b21e584-2e01-4547-8010-5c404669c74d: # Role
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: role
+    instructions: ''
+    name: Role
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  541db9c2-6c4f-40cb-a42a-9c0f9b91e38c: # Employee Name
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: employeeName
+    instructions: ''
+    name: 'Employee Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cc72f422-91e1-4d73-8ef3-90f2f0e0e017: # Profile Pic
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: profilePic
+    instructions: ''
+    name: 'Profile Pic'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: employee
+name: Employee
+sortOrder: 1

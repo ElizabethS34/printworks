@@ -1,0 +1,59 @@
+defaultPlacement: end
+fieldLayouts:
+  8bffc545-9a06-4904-9022-6de9d9c05a70:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: fcf8a468-5cdd-4ece-b954-c03e371a6260 # Image
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b4ff741f-fbc1-45ef-b306-310731465fc2 # Visible on homepage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: productCategories
+name: 'Product Categories'
+siteSettings:
+  ff5f6e13-635b-454c-83ae-39e81c2a5f3f: # The Print Works
+    hasUrls: true
+    template: types/product-categories/default
+    uriFormat: 'product-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: c4e7f172-cc7a-4e60-ac2a-b65b28052eec

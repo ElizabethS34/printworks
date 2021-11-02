@@ -1,0 +1,15 @@
+columnSuffix: null
+contentColumnType: string(255)
+fieldGroup: c26cdf24-9153-4a54-875e-6c1cef19f1b2 # Products
+handle: productImageUrl
+instructions: 'You must have either this or the product image field filled or it will break the page'
+name: 'Product Image Url'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

@@ -1,0 +1,820 @@
+dateModified: 1635848176
+email:
+  fromEmail: $EMAIL_FROM
+  fromName: 'The Print Works'
+  replyToEmail: null
+  template: null
+  transportSettings:
+    apiKey: $EMAIL_API
+    subaccount: ''
+  transportType: craft\mandrill\MandrillAdapter
+meta:
+  __names__:
+    0a8a3171-7e62-413d-8f14-94389115dfd2: 'Site Content' # Site Content
+    0f4b1a1c-c136-435d-b1e1-757a42a47698: 'related Category' # related Category
+    1c97081f-2797-4209-8bea-c113085ba11a: 'Body Text' # Body Text
+    1f7242ac-cc56-449d-9a96-849bd5f5c36e: 'Customer Images' # Customer Images
+    2a5bb6f4-e84b-4005-bfe7-64790565f3c0: 'Gallery Image' # Gallery Image
+    2b21e584-2e01-4547-8010-5c404669c74d: Role # Role
+    2b468386-2e06-4f21-950b-563365671b44: Strip # Strip
+    2beb966c-beea-4924-a2b8-f0b222ba7b0b: Introduction # Introduction
+    2cdd60ce-a5d4-466f-a8d0-067ef43bfcab: 'Social Media' # Social Media
+    2ce10c54-e1c6-443d-874a-754549cf0790: 'global settings' # global settings
+    3adc5dd9-a2d6-46d7-adbc-17e3b5f53f1e: 'Body Main' # Body Main
+    3d34f024-359a-4580-ac67-41b08c70e94b: 'Priority Product' # Priority Product
+    3dd726d8-e336-4d91-a3ce-460a18efe4f7: Employees # Employees
+    4b3d21a0-24df-4ca6-a480-9ccd296a4a5e: 'Gallery Item' # Gallery Item
+    4cdf2f88-7c18-47bb-9d55-ff7494d931cd: 'Footer Info' # Footer Info
+    5aead367-345f-4e56-88e8-ed5b731ca7eb: Phone # Phone
+    5d658bd4-d9c0-4c54-a12e-0300d6373146: 'Header Block' # Header Block
+    5d961463-4b41-49dc-9664-43ba2f121d06: 'Hero Subtitle' # Hero Subtitle
+    5f76d857-d0be-4761-b21e-bd0a13ff610d: 'Carriage Price' # Carriage Price
+    6d5c5ac7-34a6-4867-a737-9118583d9958: 'Product ID' # Product ID
+    6d5037c9-642a-4b45-b3fb-e870443aa5d2: 'Long Description' # Long Description
+    6f62f7cb-1405-4b53-b1dd-074c6218368c: 'Related Url' # Related Url
+    7cd66d7e-d40b-4306-b97b-0d1d93f4bf78: Products # Products
+    7de0d6f8-49b2-4564-ac75-bde7c0e51baf: Hero # Hero
+    07fb896d-9e52-4ddb-bdc1-d56d68b005b5: 'Image Url' # Image Url
+    7ff99da1-a56f-4f48-a8e5-ca74776147f8: 'Retail Price' # Retail Price
+    8b09607e-9083-423d-a191-f7f35be96213: 'Related Category' # Related Category
+    8b12179f-8071-4bfa-9d7d-5794ef6e18dc: 'Image Url' # Image Url
+    8de05950-127d-4a0d-b4ec-254a6cb4a852: 'Product Title' # Product Title
+    8e9ca5d9-08a4-4cc1-ac62-8f2aaf4eed4e: Logos # Logos
+    9a19adab-3d34-4cc8-9079-840d4464464a: 'Social Logo' # Social Logo
+    9b4b470b-79d7-4ead-8db5-f455e655cc91: 'Product Categories' # Product Categories
+    9f2bf619-73f8-41b4-b680-1885a2cb68c5: Misc # Misc
+    9f254bee-6cae-4655-9a14-fb2f460891ff: Image # Image
+    9fb88377-40e7-48e3-a20a-4a55647702b9: 'Product Images' # Product Images
+    13d03122-0ce5-474f-a8ab-f33f1edffe93: 'Product Display' # Product Display
+    35af1358-5559-42e1-9c31-3bf395d6ac1e: Employee # Employee
+    39f586e4-022c-455f-9cd3-080bd43ad2e2: Footer # Footer
+    46cfebe8-4917-4638-9558-6fff1a7612d5: 'Image Upload' # Image Upload
+    49d92638-03be-410b-afeb-9e9b68abc9f3: 'Strip Text' # Strip Text
+    051b36ef-55b7-4535-8319-bac4a92c542d: Common # Common
+    56e9984e-56b5-439f-a72c-ee4e985c4189: 'Related Entry' # Related Entry
+    57b0b4b4-94cb-4ecc-9b2f-c56d60e8a449: 'Icon Text' # Icon Text
+    67cacab2-de66-44e0-aca1-53772219c3bd: 'Social Media' # Social Media
+    72b62b4a-5eb5-4cf6-88fe-abdb48185a17: 'Product Title' # Product Title
+    74c89593-8ac1-4fc7-ad74-61b7f7c39aca: Postcode # Postcode
+    76be4155-2b14-4ee8-bfd6-ed7f44772ba8: SKU # SKU
+    76c98196-1b63-4787-8e5e-2b5da4afb014: 'Product Image' # Product Image
+    85d39661-7d91-4a13-a3a2-c2b30e0edf08: 'Icon Image' # Icon Image
+    86b3f910-4cfc-4d23-8571-dd9ffc11c084: Body # Body
+    86c8ca88-4c7b-4307-85e8-69f59b2ea45d: 'Image Desc' # Image Desc
+    86d4fef5-7a65-4e08-9205-3bbe0ccafc83: Price # Price
+    91fb836d-0cc8-4cce-a47e-d9373fd0a1b5: Phone # Phone
+    92c4e083-8ee0-4461-a098-8d4baa858dcc: 'Button Text' # Button Text
+    93aaeab0-1f81-479b-9282-9887975aa043: 'The Print Works' # The Print Works
+    96cd4cf8-636f-4fc4-bbf7-03f67ec25ffe: 'Gallery Header' # Gallery Header
+    97aaea5a-1755-4056-bdb2-1680d381f222: 'Image Url' # Image Url
+    98b8273e-2227-4575-ae1a-d44c5845ebd4: 'Line 2' # Line 2
+    257b372c-7c27-4549-9e6e-46c50d7b2d1b: 'Gallery Image' # Gallery Image
+    300fd916-4ab5-4057-89dc-d0a44d6c6c63: Price # Price
+    360ea6e8-9d1f-4936-a2e2-d1aefeacdd46: 'Short Description' # Short Description
+    385dacdb-1176-414e-ace1-27eb82a32b73: 'Line 1' # Line 1
+    406b13b9-711d-4c51-a98d-937e57c3593d: 'Product ID' # Product ID
+    541db9c2-6c4f-40cb-a42a-9c0f9b91e38c: 'Employee Name' # Employee Name
+    704c4e7e-d76b-4478-8e05-1cc3ec1f4695: FAQs # FAQs
+    0724bef4-cf1e-464a-a091-879af218fc23: 'Strip Text' # Strip Text
+    779bd07e-4126-4e30-b81d-0293f61825d1: Basket # Basket
+    838b8b70-0ee0-4545-bd9e-041defb4d4a8: 'Step Image' # Step Image
+    841ed5d8-4502-46b7-87dc-7c72511b3484: 'Social Media Icon' # Social Media Icon
+    1962ad1e-09af-4d2d-ab12-2e0621e5cd48: 'Retail SKU' # Retail SKU
+    5841d5a3-220f-4819-b771-97cb2847f99c: 'Product Notes' # Product Notes
+    6416ecd9-732b-4444-88ba-1fe1a76bfcd8: Gallery # Gallery
+    7386fda8-0747-416d-9ef3-0d1674eaa77d: Line1 # Line1
+    7861e57d-11d5-4cb2-86dc-293a4880ae0b: Town # Town
+    14317cb5-bf6f-4d3d-ad1c-84d644595b66: 'Hero Images' # Hero Images
+    20792be4-9a05-4150-a4cd-474bb89c9a36: Intermediary # Intermediary
+    23121f33-a52f-4e59-8b04-542d354876b8: 'Social Link' # Social Link
+    31324d7c-5a0e-4935-9a47-d2ac6484a091: 'Public Schema' # Public Schema
+    63299f72-52ff-4de3-9e14-af7777680f67: 'Product Categories' # Product Categories
+    63474ece-7603-4750-976e-41a3b85e8834: 'Line 2' # Line 2
+    76057bc7-1232-4e34-8958-cd860555dbd0: 'Retail Price' # Retail Price
+    219635da-62a3-407a-8c5d-7a888ccd8578: Home # Home
+    399170ae-121d-4a53-8194-04dfd0cd088a: 'Image Strip' # Image Strip
+    538698cc-135d-427f-a7c7-42afcd982dbe: FAQs # FAQs
+    8155317f-a280-40f2-b476-73f9c1500a46: 'Product Gallery' # Product Gallery
+    29462187-8cd3-4041-9a3b-477c7315d7c0: Town # Town
+    36680149-7a3c-4258-872c-8ad0c071396c: 'Body Video' # Body Video
+    37318416-8019-426c-beef-d37a267a17f9: 'Misc Info' # Misc Info
+    a0d823ff-8182-4d70-b707-c81072b102de: 'Location Name' # Location Name
+    a3de6245-fd12-42c6-a401-c1d4d28cfe14: 'Location Name' # Location Name
+    a5bfc601-2b8f-431b-a690-09a894215944: 'Footer Text' # Footer Text
+    a7e7525b-5a16-42d1-b296-8be519573e8d: 'Gallery Header' # Gallery Header
+    a473defa-1b81-43bb-804f-da7a1e33eaca: 'Body Image' # Body Image
+    a8253c00-cccc-420a-a37e-0a3d131ffaf8: 'Hero Image' # Hero Image
+    af393ceb-741e-41d9-9a78-7e2105c837a7: Icon # Icon
+    b08fce3d-93d6-4be9-8334-c5226be67c1c: Basket # Basket
+    b1de1226-1c1c-41b1-9b8c-458f18a7a9ad: 'Step Description' # Step Description
+    b4ff741f-fbc1-45ef-b306-310731465fc2: 'Visible on homepage' # Visible on homepage
+    b88ba45d-1981-48a7-a372-4a3411336784: Address # Address
+    bae6c608-4b89-42d2-b9d6-e959b50967cd: 'Step Title' # Step Title
+    bf07eafc-d0cf-4e0d-a6b6-59186123ba22: Home # Home
+    c4dd0e24-caa7-463a-945c-2e6e8fac7869: Favicon # Favicon
+    c6d77613-fc65-4874-af21-f8f8fd8f0a42: 'Hero Header' # Hero Header
+    c15f80c8-cb36-42f3-8804-43e86988cff5: 'About Us' # About Us
+    c26cdf24-9153-4a54-875e-6c1cef19f1b2: Products # Products
+    c305b249-f4a1-4ff9-a9b7-c0e7bbf3721f: 'Social Media Link' # Social Media Link
+    c913b221-11f0-4caa-899a-d370b3a7e450: 'Strip Image' # Strip Image
+    c6649c09-4792-4dc2-9e57-dce516e67732: Postcode # Postcode
+    ca538e55-f1aa-43ba-9264-2f97e4570082: 'Customer Users' # Customer Users
+    cac025b7-1c59-4e0a-84e8-f1f1f2f4bacd: 'Social Name' # Social Name
+    cb8306cd-7a61-4343-a891-eb60564b54e9: Product # Product
+    cc72f422-91e1-4d73-8ef3-90f2f0e0e017: 'Profile Pic' # Profile Pic
+    d0b86812-eb21-487b-b78f-023f3024cba3: Images # Images
+    d8fa98c6-799a-4dd2-8b36-418475329855: 'Lsi Employees' # Lsi Employees
+    d368e2df-acbf-4fb6-b556-8e4e5016ae12: 'Related Entry' # Related Entry
+    d88083a8-4329-4796-9cc4-a4cc18226161: 400px # 400px
+    d95091a0-3d09-4e13-8835-fd54d1154263: Image # Image
+    dc395946-e4d3-4393-ac17-303b42cd5fa4: Globals # Globals
+    de3056c6-4390-4768-9278-e34ca1abe1d1: 'Long Description' # Long Description
+    deaefb56-33f3-4947-9546-ade387f9c819: Icons # Icons
+    dfd25146-164b-4ee7-aaf0-e3ca1876a6ae: 'About Us' # About Us
+    e1d51786-d771-4b2f-a724-8b52f6f08152: 'Carriage Price' # Carriage Price
+    e3ce9f66-5187-47e9-b2ab-d531c9b9e1ae: 'Team Intro' # Team Intro
+    e6daa813-4ac0-483f-b81f-aa88403381ce: navigation # navigation
+    e36ba54f-844d-4cf5-a9a7-c31da06b1f54: address # address
+    e573d3cc-ed49-47d2-8b2c-d6325343b377: Default # Default
+    e9563268-af59-4acf-a453-038bd1f8211c: Carousel # Carousel
+    ea389470-904f-4f5c-b20f-f8b274a93528: Navigation # Navigation
+    ed5fc3c8-8c24-4f0c-8181-e0ffa2932bd5: 'Product Categories' # Product Categories
+    f015620a-bf60-46d2-bacd-da04ae9b458b: 'Page Name' # Page Name
+    f1cc3743-7bcf-4e76-a0c1-4a205a039a63: Hero # Hero
+    f2e92856-7d64-49ec-a61a-897411c01188: 'Phone Number' # Phone Number
+    f2ee3d38-ca75-4210-9b79-086d569592e4: Logos # Logos
+    f5d78862-210c-4da2-9fa8-34ce793d32d7: 'Product Image' # Product Image
+    f8eba3a1-077e-4cb9-b140-75d3bcd898bf: Default # Default
+    f8fae9a0-dc52-4949-8cc0-8866c150bd49: 'Text Block' # Text Block
+    f8fffe23-8b1d-4070-aa76-12991ec6dcc4: Categories # Categories
+    f9b74322-e198-4787-9566-663493c6ffb3: Email # Email
+    f51a9d9d-6c4b-42df-8ad8-3204091501de: 'Strip Header' # Strip Header
+    f53fe8de-abbb-4239-a1a0-d39b882cf6c5: Products # Products
+    f728de1e-b439-48d8-92ec-532da66138a6: Product # Product
+    fab99576-2c6b-404b-9f6e-a1b4bd7c2ae7: 'Short Description' # Short Description
+    fb31d911-8669-4cde-bea3-252c9c27fc8a: 'Strip Image' # Strip Image
+    fcf8a468-5cdd-4ece-b954-c03e371a6260: Image # Image
+    ff0d2249-466c-4b72-a89f-f20dc28342b7: 'Product Image Url' # Product Image Url
+    ff5f6e13-635b-454c-83ae-39e81c2a5f3f: 'The Print Works' # The Print Works
+plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: '1'
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from The Print Works'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: $EMAIL_TO
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  mandrill:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  ss-entry-importer:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.2
+    settings:
+      entry_status: 'true'
+      entry_type: '5'
+      response_data:
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7563312'
+            -
+              - product.name
+              - 'Large Bottle Gift Box - Xmas gold'
+            -
+              - product.retail_sku
+              - EXEC.BOX.8.GLD.XMAS
+            -
+              - tier_price.price
+              - '6.99'
+            -
+              - tier_price.rrp
+              - '13.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing full size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 403 x 134 x 112mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7563856'
+            -
+              - product.name
+              - 'Large Bottle Gift Box - Floral '
+            -
+              - product.retail_sku
+              - EXEC.BOX.8.FLORAL
+            -
+              - tier_price.price
+              - '6.99'
+            -
+              - tier_price.rrp
+              - '13.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing full size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 403 x 134 x 112mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7563883'
+            -
+              - product.name
+              - 'Large Bottle Gift Box -  Botanical '
+            -
+              - product.retail_sku
+              - EXEC.BOX.8.BOTAN
+            -
+              - tier_price.price
+              - '6.99'
+            -
+              - tier_price.rrp
+              - '13.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing full size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 403 x 134 x 112mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7563898'
+            -
+              - product.name
+              - 'Large Bottle Gift Box -  A Gift For You'
+            -
+              - product.retail_sku
+              - EXEC.BOX.8.AGFY
+            -
+              - tier_price.price
+              - '6.99'
+            -
+              - tier_price.rrp
+              - '13.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing full size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 403 x 134 x 112mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7564077'
+            -
+              - product.name
+              - 'Small Bottle Gift Box - Floral '
+            -
+              - product.retail_sku
+              - EXEC.BOX.6.FLORAL
+            -
+              - tier_price.price
+              - '5.99'
+            -
+              - tier_price.rrp
+              - '11.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing small size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box. Dimensions: Gift Box 300 x 125 x 100mm'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: Gift Box 300 x 125 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty."
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7564123'
+            -
+              - product.name
+              - 'Small Bottle Gift Box -  Botanical '
+            -
+              - product.retail_sku
+              - EXEC.BOX.6.BOTAN
+            -
+              - tier_price.price
+              - '5.99'
+            -
+              - tier_price.rrp
+              - '11.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing small size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box. Dimensions: Gift Box 300 x 125 x 100mm'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: Gift Box 300 x 125 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty."
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7564141'
+            -
+              - product.name
+              - 'Small Bottle Gift Box -  Gold Xmas '
+            -
+              - product.retail_sku
+              - EXEC.BOX.6.GLD.XMAS
+            -
+              - tier_price.price
+              - '5.99'
+            -
+              - tier_price.rrp
+              - '11.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing small size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box. Dimensions: Gift Box 300 x 125 x 100mm'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: Gift Box 300 x 125 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty."
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567426'
+            -
+              - product.name
+              - 'Small Bottle Gift Box - A Gift For You'
+            -
+              - product.retail_sku
+              - EXEC.BOX.6.AGFY
+            -
+              - tier_price.price
+              - '5.99'
+            -
+              - tier_price.rrp
+              - '11.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing small size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box. Dimensions: Gift Box 300 x 125 x 100mm'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: Gift Box 300 x 125 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty."
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567749'
+            -
+              - product.name
+              - 'Large Gift Box - Gold Xmas '
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.XMAS.GLD
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567811'
+            -
+              - product.name
+              - 'Large Gift Box - Xmas 2'
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.LAND.XMAS2
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567832'
+            -
+              - product.name
+              - 'Exec Box 5 - Xmas 1'
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.LAND.XMAS1
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567838'
+            -
+              - product.name
+              - 'Large Gift Box - Grey Marble 2'
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.GRY.MBL
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567870'
+            -
+              - product.name
+              - 'Large Gift Box - Pink Marble '
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.PNK.MBL
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567885'
+            -
+              - product.name
+              - 'Large Gift Box - Floral '
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.FLORAL
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567894'
+            -
+              - product.name
+              - 'Large Gift Box - Christmas Wreath'
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.XMAS.WREATH
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567895'
+            -
+              - product.name
+              - 'Large Gift Box - Gold & Leafs'
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.GLD.LEAF
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567896'
+            -
+              - product.name
+              - 'Large Gift Box - Botanical '
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.BOTAN
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7567934'
+            -
+              - product.name
+              - 'Large Gift Box - Gold Glitter'
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.ALL.GLITTER
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7753830'
+            -
+              - product.name
+              - 'Large Gift Box - Photo Upload'
+            -
+              - product.retail_sku
+              - EXEC.BOX.5.PERSONALISE
+            -
+              - tier_price.price
+              - '7.99'
+            -
+              - tier_price.rrp
+              - '12.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'Create the perfect gift with one of our Personalised Large Gift Boxes and create packaging that will become almost as special as the contents.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 300 x 250 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7753853'
+            -
+              - product.name
+              - 'Small Bottle Gift Box - Personalised'
+            -
+              - product.retail_sku
+              - EXEC.BOX.6.PERSONALISE
+            -
+              - tier_price.price
+              - '5.99'
+            -
+              - tier_price.rrp
+              - '11.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing small size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box. Dimensions: Gift Box 300 x 125 x 100mm'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: Gift Box 300 x 125 x 100mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty."
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+        -
+          __assoc__:
+            -
+              - product.id
+              - '7753864'
+            -
+              - product.name
+              - 'Large Bottle Gift Box - Photo Upload'
+            -
+              - product.retail_sku
+              - EXEC.BOX.8.PERSONALISE
+            -
+              - tier_price.price
+              - '6.99'
+            -
+              - tier_price.rrp
+              - '13.99'
+            -
+              - tier_price.carriage
+              - '2.49'
+            -
+              - ecommerce.sales_description
+              - 'This gift box is the perfect size for concealing full size bottles of wine or spirits, so why not make their favourite drink extra special by personalising this box.'
+            -
+              - ecommerce.sales_description_long
+              - "Whether you are looking for a special way to present a birthday present, wedding gift or even a Christmas box our range of gift boxes are perfect for you.\n\nSimply add your own images and/or text to one of our boxes to create unique packaging that will be loved as much as the gift inside. Our personaliser works in real time, so you can view just want your box will look like before you make your purchase.\n\nDimensions: 403 x 134 x 112mm\n\nPlease Note: Our Gift boxes will be personalised exactly as you have written. Personalised products are only returnable if faulty.\n"
+            -
+              - ecommerce.notes
+              - "* This item will be personalised exactly as you have designed\n* This item will be dispatched within 3-5 working days. (Monday - Friday, excludes UK bank holidays) "
+      response_header:
+        - product.id
+        - product.name
+        - product.retail_sku
+        - tier_price.price
+        - tier_price.rrp
+        - tier_price.carriage
+        - ecommerce.sales_description
+        - ecommerce.sales_description_long
+        - ecommerce.notes
+      section: '3'
+  venveo-bulk-edit:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.0
+system:
+  edition: pro
+  live: true
+  name: 'The Print Works'
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: UTC

@@ -1,0 +1,79 @@
+field: 8155317f-a280-40f2-b476-73f9c1500a46 # Product Gallery
+fieldLayouts:
+  81572d73-2a59-41b7-ac5f-4b3359974508:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d95091a0-3d09-4e13-8835-fd54d1154263 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 97aaea5a-1755-4056-bdb2-1680d381f222 # Image Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  97aaea5a-1755-4056-bdb2-1680d381f222: # Image Url
+    columnSuffix: null
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: imageUrl
+    instructions: ''
+    name: 'Image Url'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  d95091a0-3d09-4e13-8835-fd54d1154263: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: galleryImage
+name: 'Gallery Image'
+sortOrder: 1

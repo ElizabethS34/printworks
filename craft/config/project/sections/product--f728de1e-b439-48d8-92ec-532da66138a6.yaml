@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: product
+name: Product
+propagationMethod: all
+siteSettings:
+  ff5f6e13-635b-454c-83ae-39e81c2a5f3f: # The Print Works
+    enabledByDefault: true
+    hasUrls: true
+    template: _routers/main
+    uriFormat: 'product/{slug}'
+type: channel

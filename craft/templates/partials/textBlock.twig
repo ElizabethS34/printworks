@@ -1,0 +1,9 @@
+{% set text = entry.textBlock ?? null %}
+
+  <div class="mt-5 mb-5 body-content">
+    {% if text %}
+      <div class="p-4 text-xl text-center">
+        {{ text }}
+      </div>
+    {% endif %}
+  </div>

@@ -1,0 +1,19 @@
+columnSuffix: jmvyfvbp
+contentColumnType: text
+fieldGroup: c26cdf24-9153-4a54-875e-6c1cef19f1b2 # Products
+handle: sku
+instructions: ''
+name: SKU
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

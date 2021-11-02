@@ -1,0 +1,15 @@
+{% if product.productImageUrl or product.productImage %}
+  <div class="product-card-display" onclick="window.location='{{product.url}}'">
+    <div class="product-card">
+    {% if product.productImageUrl %}
+      <img class="rounded-t-lg w-full" src="{{ product.productImageUrl }}" >
+    {% elseif product.productImage | length %}
+      {% set productImage = product.productImage.one() %}
+      <img class="rounded-t-lg w-full" src="{{ productImage.url }}" >
+    {% endif %}
+      <div class="product-info">
+        <h2>{{ product.productTitle}}</h2>
+      </div>
+    </div>
+  </div>
+{% endif %}

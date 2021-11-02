@@ -1,0 +1,20 @@
+columnSuffix: ounkhoav
+contentColumnType: integer(10)
+fieldGroup: 39f586e4-022c-455f-9cd3-080bd43ad2e2 # Footer
+handle: phone
+instructions: ''
+name: Phone
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: null
+  prefix: null
+  previewCurrency: ''
+  previewFormat: none
+  size: '11'
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

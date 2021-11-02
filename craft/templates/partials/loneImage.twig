@@ -1,0 +1,7 @@
+{% set image = entry.image.one()  ?? null %}
+
+{% if image %}
+  <div>
+    <img class = "w-full px-20" src="{{ image.getUrl() }}">
+  </div>
+{% endif %}

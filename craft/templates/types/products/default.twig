@@ -1,0 +1,14 @@
+
+  {% if entry.imageStrip %}
+    <div> {% include "partials/imageStrip" %} </div>
+  {% endif %}
+
+  {% if entry.body %}
+    <div> {% include "partials/body" %} </div>
+  {% endif %}
+
+  <div> {% include "partials/categoryDisplay" %} </div>
+
+  <div> {% include "partials/allProducts" %} </div>
+
+  <div> {% include "forms/contact" %} </div>

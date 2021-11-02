@@ -1,0 +1,17 @@
+{% set body = entry.body.all() ?? null %}
+
+{% for bodyMain in body %}
+  {% set bodyImage = bodyMain.bodyImage.one() %}
+  <div class="mt-10 mb-10 bg-white-500 body-content flex-col justify-center">
+    {% if bodyMain.bodyText %}
+      <div class="p-4 text-xl">
+        {{ bodyMain.bodyText }}
+    {% endif %}
+
+      {% if bodyImage %}
+        <img src="{{ bodyImage.getUrl() }}">
+      {% endif %}
+    </div>
+
+  </div>
+{% endfor %}

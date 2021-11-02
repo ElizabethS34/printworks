@@ -1,0 +1,14 @@
+{% set logo = globalSettings.image.one() ?? null %}
+<div class="bg-white-500">
+  <div class="flex flex-wrap justify-between text-2xl " >
+    <div class="hidden md:block bg-pink sm:w-1/6">
+    </div>
+    <div class="logo-back hover:cursor-pointer" onclick="window.location='/'">
+      <img src="/logo-front.png" class="logo-front">
+    </div>
+    <div class="hidden md:block w-full text-right bg-pink pl-16 sm:w-1/6">
+      <div class="hidden">{% include "forms/login" %}</div>
+    </div>
+  </div>
+  {% include "partials/navigation" %}
+</div>

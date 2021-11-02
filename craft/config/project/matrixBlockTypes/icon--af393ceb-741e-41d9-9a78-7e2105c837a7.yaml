@@ -1,0 +1,83 @@
+field: deaefb56-33f3-4947-9546-ade387f9c819 # Icons
+fieldLayouts:
+  6b4223fa-2d45-48ed-885c-087de6a3e41a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 57b0b4b4-94cb-4ecc-9b2f-c56d60e8a449 # Icon Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 85d39661-7d91-4a13-a3a2-c2b30e0edf08 # Icon Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  57b0b4b4-94cb-4ecc-9b2f-c56d60e8a449: # Icon Text
+    columnSuffix: txaxcmvy
+    contentColumnType: text
+    fieldGroup: null
+    handle: iconText
+    instructions: ''
+    name: 'Icon Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  85d39661-7d91-4a13-a3a2-c2b30e0edf08: # Icon Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: iconImage
+    instructions: ''
+    name: 'Icon Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: icon
+name: Icon
+sortOrder: 1

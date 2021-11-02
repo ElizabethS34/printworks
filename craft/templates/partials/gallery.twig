@@ -1,0 +1,21 @@
+<div class="gallery-display">
+  <div class="flex flex-nowrap overflow-x-scroll">
+  {% set galleryImages = entry.productGallery.all() %}
+    {% for galleryImage in galleryImages %}
+        <div class="gallery-card-display flex-0">
+          <div class="gallery-card">
+
+              <img class="gallery-image" src="{{ galleryImage.url }}" onclick="changeImage('{{ galleryImage.url }}')">
+
+          </div>
+        </div>
+
+        {% js %}
+              function changeImage(url) {
+                document.getElementById("productImage").src = url
+              }
+        {% endjs %}
+
+    {% endfor %}
+    </div>
+  </div>

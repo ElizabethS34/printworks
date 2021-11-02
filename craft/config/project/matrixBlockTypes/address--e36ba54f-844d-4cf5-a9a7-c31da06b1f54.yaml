@@ -1,0 +1,157 @@
+field: b88ba45d-1981-48a7-a372-4a3411336784 # Address
+fieldLayouts:
+  cc6e6eed-3425-4f76-8d0b-4165eceec6d5:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a3de6245-fd12-42c6-a401-c1d4d28cfe14 # Location Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7386fda8-0747-416d-9ef3-0d1674eaa77d # Line1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 98b8273e-2227-4575-ae1a-d44c5845ebd4 # Line 2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 29462187-8cd3-4041-9a3b-477c7315d7c0 # Town
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 74c89593-8ac1-4fc7-ad74-61b7f7c39aca # Postcode
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  74c89593-8ac1-4fc7-ad74-61b7f7c39aca: # Postcode
+    columnSuffix: ommwmhkx
+    contentColumnType: text
+    fieldGroup: null
+    handle: postcode
+    instructions: ''
+    name: Postcode
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  98b8273e-2227-4575-ae1a-d44c5845ebd4: # Line 2
+    columnSuffix: pxhmocme
+    contentColumnType: text
+    fieldGroup: null
+    handle: line2
+    instructions: ''
+    name: 'Line 2'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7386fda8-0747-416d-9ef3-0d1674eaa77d: # Line1
+    columnSuffix: zsdlssls
+    contentColumnType: text
+    fieldGroup: null
+    handle: line1
+    instructions: ''
+    name: Line1
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  29462187-8cd3-4041-9a3b-477c7315d7c0: # Town
+    columnSuffix: yvohtgms
+    contentColumnType: text
+    fieldGroup: null
+    handle: town
+    instructions: ''
+    name: Town
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a3de6245-fd12-42c6-a401-c1d4d28cfe14: # Location Name
+    columnSuffix: ufjarcfw
+    contentColumnType: text
+    fieldGroup: null
+    handle: locationName
+    instructions: ''
+    name: 'Location Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: address
+name: address
+sortOrder: 1

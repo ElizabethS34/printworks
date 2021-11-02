@@ -1,0 +1,37 @@
+field: ff0d2249-466c-4b72-a89f-f20dc28342b7 # Product Image Url
+fieldLayouts:
+  87ee8a90-1398-4107-aec2-dedb2ebb033b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 07fb896d-9e52-4ddb-bdc1-d56d68b005b5 # Image Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  07fb896d-9e52-4ddb-bdc1-d56d68b005b5: # Image Url
+    columnSuffix: lahhtdip
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: imageUrl
+    instructions: ''
+    name: 'Image Url'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: imageUrl
+name: 'Image Url'
+sortOrder: 2

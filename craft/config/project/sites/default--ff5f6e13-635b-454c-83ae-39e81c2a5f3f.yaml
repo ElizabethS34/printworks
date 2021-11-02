@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-GB
+name: 'The Print Works'
+primary: true
+siteGroup: 93aaeab0-1f81-479b-9282-9887975aa043 # The Print Works
+sortOrder: 1

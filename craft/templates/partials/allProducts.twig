@@ -1,0 +1,31 @@
+{% set categories = craft.categories.group('productCategories').all() %}
+{% for category in categories %}
+
+
+      {% set products = craft.entries.section('products').relatedTo(category).limit(4) %}
+
+
+    {% if products | length %}
+      <div class="full-product-display">
+      <div class="display-title">{{category.title}}</div>
+        <div class="flex flex-wrap justify-center overflow-visible ">
+
+
+          {% for product in products %}
+          {% set image = product.productImage.one() ?? null %}
+                    <div class=" py-4 sm:py-8 w-1/2 sm:w-1/4 px-4" href="{{product.url}}">
+                      <div class="product-display max-h-96">
+                      {% if image %}
+                        <img class="rounded-t-lg w-full" src="{{ image.getUrl() }}" />
+                      {% endif %}
+                        <div class="product-info">
+                          <h2 class="font-bold text-2xl mb-3 hover:text-grey hover:cursor-pointer">{{ product.productTitle}}</h1>
+                          <a href="{{product.url}}">More Info</a>
+                        </div>
+                      </div>
+                    </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+{% endfor %}

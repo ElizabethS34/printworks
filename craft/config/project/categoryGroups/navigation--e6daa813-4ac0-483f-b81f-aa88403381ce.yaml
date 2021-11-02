@@ -1,0 +1,68 @@
+defaultPlacement: end
+fieldLayouts:
+  80bcb6cb-6262-4312-b44d-72db55c6b6f8:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: d368e2df-acbf-4fb6-b556-8e4e5016ae12 # Related Entry
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8b09607e-9083-423d-a191-f7f35be96213 # Related Category
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6f62f7cb-1405-4b53-b1dd-074c6218368c # Related Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: navigation
+name: navigation
+siteSettings:
+  ff5f6e13-635b-454c-83ae-39e81c2a5f3f: # The Print Works
+    hasUrls: true
+    template: _routers/main
+    uriFormat: 'navigation/{slug}'
+structure:
+  maxLevels: 2
+  uid: 3dfa011b-8be1-4bc2-be4b-9e4501b3611f

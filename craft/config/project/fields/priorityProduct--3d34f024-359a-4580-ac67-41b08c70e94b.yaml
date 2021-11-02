@@ -1,0 +1,14 @@
+columnSuffix: oduzgxnv
+contentColumnType: boolean
+fieldGroup: c26cdf24-9153-4a54-875e-6c1cef19f1b2 # Products
+handle: priorityProduct
+instructions: 'Only set this if this product is a priority to sell as it''ll be placed at the top of the products page'
+name: 'Priority Product'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

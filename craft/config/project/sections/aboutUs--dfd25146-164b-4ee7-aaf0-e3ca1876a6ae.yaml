@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: aboutUs
+name: 'About Us'
+propagationMethod: all
+siteSettings:
+  ff5f6e13-635b-454c-83ae-39e81c2a5f3f: # The Print Works
+    enabledByDefault: true
+    hasUrls: true
+    template: _routers/main
+    uriFormat: about
+type: single

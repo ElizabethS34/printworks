@@ -1,0 +1,27 @@
+{% set employeeQuery = entry.employees.all() %}
+
+<div class="display-heading">Our Team</div>
+<div class="display-intro">{{entry.teamIntro}}</div>
+
+  <div class="full-product-display flex">
+    <div class="flex flex-wrap justify-center ">
+
+    {% for employee in employeeQuery %}
+      {% set profile = employee.profilePic.one() ?? null %}
+      {% if profile %}
+          <div class="product-card-display">
+            <div class="product-card">
+              <img class="rounded-t-lg w-full" src="{{ profile.getUrl() }}" />
+              <div class="product-info">
+                <h2 class="font-bold text-2xl mb-3">{{ employee.employeeName}}</h1>
+                {% if employee.role %}
+                <p class="hidden md:block tracking-">{{ employee.role}}</p>
+              {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

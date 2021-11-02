@@ -1,0 +1,11 @@
+{% extends "_layout" %}
+
+{% block content %}
+
+  {% include [
+      "types/" ~ entry.section.handle ~ "/" ~ entry.type.handle,
+      "types/" ~ entry.section.handle ~ "/default",
+      "types/default",
+  ] %}
+
+{% endblock %}

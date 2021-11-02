@@ -1,0 +1,9 @@
+allowPublicRegistration: true
+defaultGroup: ''
+fieldLayouts:
+  303b9e49-d2a1-476b-ae81-7790071b8da9: null
+photoSubpath: null
+photoVolumeUid: 1f7242ac-cc56-449d-9a96-849bd5f5c36e # Customer Images
+requireEmailVerification: true
+suspendByDefault: true
+validateOnPublicRegistration: true

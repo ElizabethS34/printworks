@@ -1,0 +1,32 @@
+{% set address = footerInfo.address.one() ?? null %}
+{% set phone = footerInfo.phone ?? null %}
+{% set logos = footerInfo.logos.limit(4).all() ?? null %}
+{% set misc = footerInfo.misc ?? null %}
+
+<div class="flex flex-wrap bg-pink justify-center px-10 md:px-20 lg:px-32 xl:px-64 2xl:px-96">
+
+  <div> {% include "partials/navigation" %} </div>
+
+  <div class="flex w-full justify-end">
+    <div class="logo-container">
+
+    </div>
+    <div class="address">
+    {% if address | length %}
+       <div>{{address.locationName}}</div>
+       <div>{{address.line1}}</div>
+       <div>{{address.line2}}</div>
+       <div>{{address.town}}</div>
+       <div>{{address.postcode}}</div>
+       {% endif %}
+       {% if phone %}
+         <div class="text">{{phone}}</div>
+       {% endif %}
+    </div>
+  </div>
+
+  {% if misc %}
+    <div class="text">{{misc}}</div>
+  {% endif %}
+
+</div>

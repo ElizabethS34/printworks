@@ -1,0 +1,50 @@
+fieldLayouts:
+  ee6ec6d2-5f4a-459c-ac40-a70fec466b75:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5d658bd4-d9c0-4c54-a12e-0300d6373146 # Header Block
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: fcf8a468-5cdd-4ece-b954-c03e371a6260 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c4dd0e24-caa7-463a-945c-2e6e8fac7869 # Favicon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: branding
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 2cdd60ce-a5d4-466f-a8d0-067ef43bfcab # Social Media
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Social Media'
+        sortOrder: 2
+handle: globalSettings
+name: 'global settings'
+sortOrder: 1

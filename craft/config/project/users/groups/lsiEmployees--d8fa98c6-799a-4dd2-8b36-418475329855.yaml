@@ -1,0 +1,70 @@
+description: ''
+handle: lsiEmployees
+name: 'Lsi Employees'
+permissions:
+  - accesssitewhensystemisoff
+  - accesscpwhensystemisoff
+  - accesscp
+  - registerusers
+  - moderateusers
+  - 'assignusergroup:ca538e55-f1aa-43ba-9264-2f97e4570082' # Customer Users
+  - assignusergroups
+  - editusers
+  - 'publishentries:dfd25146-164b-4ee7-aaf0-e3ca1876a6ae' # About Us
+  - 'editentries:dfd25146-164b-4ee7-aaf0-e3ca1876a6ae' # About Us
+  - 'publishentries:704c4e7e-d76b-4478-8e05-1cc3ec1f4695' # FAQs
+  - 'editentries:704c4e7e-d76b-4478-8e05-1cc3ec1f4695' # FAQs
+  - 'publishentries:bf07eafc-d0cf-4e0d-a6b6-59186123ba22' # Home
+  - 'editentries:bf07eafc-d0cf-4e0d-a6b6-59186123ba22' # Home
+  - 'createentries:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'publishentries:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'deleteentries:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'publishpeerentries:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'deletepeerentries:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'editpeerentries:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'publishpeerentrydrafts:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'deletepeerentrydrafts:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'editpeerentrydrafts:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'editentries:f728de1e-b439-48d8-92ec-532da66138a6' # Product
+  - 'publishentries:f53fe8de-abbb-4239-a1a0-d39b882cf6c5' # Products
+  - 'publishpeerentrydrafts:f53fe8de-abbb-4239-a1a0-d39b882cf6c5' # Products
+  - 'deletepeerentrydrafts:f53fe8de-abbb-4239-a1a0-d39b882cf6c5' # Products
+  - 'editpeerentrydrafts:f53fe8de-abbb-4239-a1a0-d39b882cf6c5' # Products
+  - 'editentries:f53fe8de-abbb-4239-a1a0-d39b882cf6c5' # Products
+  - 'editglobalset:2ce10c54-e1c6-443d-874a-754549cf0790' # global settings
+  - 'editglobalset:4cdf2f88-7c18-47bb-9d55-ff7494d931cd' # Footer Info
+  - 'editcategories:e6daa813-4ac0-483f-b81f-aa88403381ce' # navigation
+  - 'editcategories:9b4b470b-79d7-4ead-8db5-f455e655cc91' # Product Categories
+  - 'saveassetinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'createfoldersinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'deletefilesandfoldersinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'replacefilesinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'editimagesinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'editpeerfilesinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'replacepeerfilesinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'deletepeerfilesinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'editpeerimagesinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'viewpeerfilesinvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'viewvolume:14317cb5-bf6f-4d3d-ad1c-84d644595b66' # Hero Images
+  - 'saveassetinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'createfoldersinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'deletefilesandfoldersinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'replacefilesinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'editimagesinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'editpeerfilesinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'replacepeerfilesinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'deletepeerfilesinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'editpeerimagesinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'viewpeerfilesinvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'viewvolume:d0b86812-eb21-487b-b78f-023f3024cba3' # Images
+  - 'saveassetinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'createfoldersinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'deletefilesandfoldersinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'replacefilesinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'editimagesinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'editpeerfilesinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'replacepeerfilesinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'deletepeerfilesinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'editpeerimagesinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'viewpeerfilesinvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images
+  - 'viewvolume:1f7242ac-cc56-449d-9a96-849bd5f5c36e' # Customer Images

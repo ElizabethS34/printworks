@@ -1,0 +1,18 @@
+
+  {% if entry.hero %}
+    <div class="w-full"> {% include "partials/hero" %} </div>
+  {% endif %}
+
+  {% if entry.body %}
+    <div> {% include "partials/body" %} </div>
+  {% endif %}
+
+  {% if entry.imageStrip %}
+    <div> {% include "partials/imageStrip" %} </div>
+  {% endif %}
+
+  {% if entry.employees %}
+    <div> {% include "partials/employeeCard" %} </div>
+  {% endif %}
+
+  <div> {% include "forms/contact" %} </div>

@@ -1,0 +1,12 @@
+{% set catImage = productCategory.image.one() ?? null %}
+
+<div class="product-card-display" onclick="window.location='{{productCategory.url}}'">
+<div class="product-card">
+{% if catImage | length %}
+    <img class="rounded-t-lg w-full" src="{{ catImage.getUrl() }}" />
+{% endif %}
+    <div class="product-info">
+    <h2>{{ productCategory.title}}</h1>
+    </div>
+</div>
+</div>

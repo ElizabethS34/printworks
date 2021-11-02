@@ -1,0 +1,47 @@
+<div class="single-product-title"> {{ entry.productTitle }}</div>
+
+  <div class="single-product">
+      <div class="product-image">
+        {% if entry.productImageUrl %}
+          <img class="image-style" id="productImage" src="{{ entry.productImageUrl }}">
+        {% elseif entry.productImage | length %}
+          {% set productImage = entry.productImage.one() %}
+          <img class="image-style" id="productImage" src="{{ productImage.url() }}" >
+        {% endif %}
+
+        {% include "types/gatewaybasket-module/personaliserButton" %}
+
+        {% if entry.productGallery | length %}
+          {% include "partials/gallery" %}
+        {% endif %}
+      </div>
+
+    <div class="product-info">
+      <div>
+        <div class="product-info-h2"> {{ entry.productTitle }} </div>
+        <div class="product-info-h3"> Product ID: {{  entry.productId }} </div>
+        <div class="product-info-h3"> Product SKU: {{ entry.sku}} </div>
+      </div>
+      <div>
+      <br>
+        {% if entry.retailPrice %}
+          RRP: £{{ entry.retailPrice}}<br>
+          {% endif %}
+        {% if entry.carriagePrice %}
+          Carriage Price: £{{ entry.carriagePrice}}<br>
+          {% endif %}
+        {% if entry.shortDescription %}
+        <br>
+        <div class="product-info-p"> {{ entry.shortDescription}} </div>
+          <br>
+        {% endif %}
+
+      </div>
+    </div>
+
+  </div>
+  <div class="product-extras">
+  {{ entry.longDescription}}<br>
+  {{ entry.productNotes}}<br>
+  </div>
+  {% include "partials/similarProducts" %}

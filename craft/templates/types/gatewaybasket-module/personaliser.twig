@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Personaliser</title>
+
+		<style>
+			body, html {
+				padding: 0; margin: 0; width: 100%; height: 100%;
+			}
+
+			#personaliser, iframe {
+				width: 100%; height: 100%; border: 0;
+			}
+		</style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+
+	<body>
+		<div id="personaliser">
+			<iframe src="" id="personaliser-iframe"></iframe>
+		</div>
+
+        <script>
+            $(document).ready(function(){
+                let iframeOrigin = '{{ iframeOrigin }}';
+                let iframeUrl = '{{ iframeUrl }}';
+
+                let meo = location.origin;[[[[[[[]]]]]]]
+                let mei = Math.random().toString(16).substr(2);
+
+                $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+                  jqXHR.setRequestHeader('X-CSRF-Token', '{{ craft.app.request.csrfToken|e('js') }}');
+                });
+
+                window.addEventListener("message", e => {
+                    if(e.origin == iframeOrigin && e.data.id == mei){
+                        switch(e.data.name){
+                            case 'ADD_TO_CART_CALLBACK':
+                                // handle the callback
+                                var jqxhr = $.post('/basket/add', {
+                                  data: e.data.body.items[0] });
+                                jqxhr.done(function(){
+                                    window.parent.location.href = jqxhr.responseText;
+                                });
+                                break;
+                        }
+                    }
+                });
+
+                let iframe = document.getElementById('personaliser-iframe');
+                iframe.src = htmlDecode(iframeUrl) + "&meo=" + meo + "&mei=" + mei;
+
+                function htmlDecode(input) {
+                  var doc = new DOMParser().parseFromString(input, "text/html");
+                  return doc.documentElement.textContent;
+                }
+            });
+        </script>
+	</body>
+</html>

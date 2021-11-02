@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: siteContent
+name: 'Site Content'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  ff5f6e13-635b-454c-83ae-39e81c2a5f3f: # The Print Works
+    enabledByDefault: true
+    hasUrls: true
+    template: _routers/main
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: f91668c0-5f48-4f43-bd18-b31c72059cb2
+type: structure

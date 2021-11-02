@@ -1,0 +1,19 @@
+
+
+  {% if entry.textBlock %}
+    <div> {% include "partials/textBlock" %} </div>
+  {% endif %}
+
+  {% if entry.image %}
+    <div> {% include "partials/loneImage" %} </div>
+  {% endif %}
+
+  {% if entry.body %}
+    <div> {% include "partials/body" %} </div>
+  {% endif %}
+
+  {% if entry.gallery %}
+    <div> {% include "partials/gallery" %} </div>
+  {% endif %}
+
+  <div> {% include "forms/contact" %} </div>

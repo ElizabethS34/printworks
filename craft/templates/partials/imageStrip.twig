@@ -1,0 +1,14 @@
+{% set strips = entry.imageStrip.all()  %}
+
+{% for strip in strips %}
+  {% set picture = strip.stripImage.one()  %}
+  <div class="horizontal-strip">
+    <div class="w-1/3 bg-grey">
+      <img class = "w-full" src="{{ picture.getUrl() }}">
+    </div>
+    <div class="strip-text">
+      <h2> {{strip.stripHeader}} </h2>
+      <h3> {{strip.stripText}} </h3>
+    </div>
+  </div>
+{% endfor %}

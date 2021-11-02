@@ -1,0 +1,55 @@
+fieldLayouts:
+  79972d3a-098f-4c54-b214-d063f60dfba2:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7eb776f6-14e3-487c-bb17-d41e41ccdd82
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b88ba45d-1981-48a7-a372-4a3411336784 # Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8e9ca5d9-08a4-4cc1-ac62-8f2aaf4eed4e # Logos
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9f2bf619-73f8-41b4-b680-1885a2cb68c5 # Misc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5aead367-345f-4e56-88e8-ed5b731ca7eb # Phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Info
+        sortOrder: 1
+handle: footerInfo
+name: 'Footer Info'
+sortOrder: 2

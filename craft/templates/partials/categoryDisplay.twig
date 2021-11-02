@@ -1,0 +1,15 @@
+{% set productCategories = craft.categories.group('productCategories').level(1).all() %}
+
+
+<div class="display-heading">Product Categories</div>
+  <div class="full-product-display">
+  <div class="flex flex-wrap justify-center ">
+    {% for productCategory in productCategories %}
+      {% set catImage = productCategory.image.one() ?? null %}
+
+        {% include "partials/category-card" %}
+
+    {% endfor %}
+    </div>
+  </div>
+</div>

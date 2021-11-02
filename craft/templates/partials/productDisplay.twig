@@ -1,0 +1,68 @@
+{% set displayCategories = entry.productDisplay.all() ?? null %}
+
+{% for categoryName in displayCategories %}
+
+  {% set products = craft.entries.section('product').relatedTo(categoryName).limit(4).all() %}
+<div class="display-heading" onclick="window.location='{{categoryName.url}}'">{{categoryName.title}}</div>
+<div class="full-product-display">
+  <div class="flex flex-wrap justify-center ">
+  {% for product in products %}
+
+  {% set image = product.productImageUrl.one() ?? null %}
+      <div class="product-card-display" onclick="window.location='{{product.url}}'">
+        <div class="product-card">
+        {% if image %}
+          <img class="rounded-t-lg w-full" src="{{ image.getUrl() }}" />
+        {% else %}
+          {% set productImage = product.productImage.one() %}
+          <img class="rounded-t-lg w-full" src="{{ productImage.url }}" >
+        {% endif %}
+          <div class="product-info">
+            <h2>{{ product.productTitle}}</h2>
+          </div>
+        </div>
+      </div>
+
+  {% endfor %}
+  </div>
+</div>
+  {% endif %}
+
+{% endfor %}
+
+  {# {% set categories = craft.categories.group('productCategories').slug(displayCategories).all() %}
+  {% for category in categories %}
+
+    <div style="padding: 3em; background: #999;">Cat title: {{category.title}}</div>
+
+    {% set products = craft.entries.section('products').relatedTo(category).limit(5) %}
+
+    {% if products | length %}
+      <div class="my-12 bg-pink-dark flex justify-center items-center">
+        <div class="container flex justify-center overflow-visible ">
+        {{category.title}}
+
+          {% for product in products %}
+          {% set image = product.productImage.one().setTransform('profile') ?? null %}
+                    <div class="h-40 max-w-sm py-8 px-4 ">
+                      <div class="bg-white relative shadow-lg hover:shadow-xl rounded-lg">
+                      {% if image %}
+                        <img class="rounded-t-lg w-full" src="{{ image.getUrl() }}" />
+                      {% endif %}
+                        <div class="py-6 px-8 rounded-lg bg-white">
+                          <h1 class="font-bold text-2xl mb-3 hover:text-grey hover:cursor-pointer">{{ product.productTitle}}</h1>
+                          <p class="tracking-wide">{{ product.productId }}</p>
+                          {% if product.price %}
+                          <p class="tracking-wide">{{ product.price }}</p>
+                        {% endif %}
+                          <a href="{{product.url}}" class="mt-6 py-2 px-4 text-grey no-underline font-bold rounded-lg shadow-md hover:shadow-lg transition duration-300">More Info</a>
+                        </div>
+                      </div>
+                    </div>
+          {% endfor %}
+
+        </div>
+      </div>
+    {% endif %}
+
+{% endfor %} #}

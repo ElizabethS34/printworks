@@ -1,0 +1,38 @@
+{% set hero = entry.hero.one() ?? null %}
+
+    {% set picture = hero.heroImage.one() ?? null %}
+
+  {% if picture  %}
+  <div  class="hero" style="background-image:url('{{picture.getUrl}}');background-size: cover;background-repeat:no-repeat; background-position:left">
+		<div class="hero-text" style="background:rgba(0,0,0,0.75);">
+    {% if hero.heroHeader %}
+			<h1>
+				<div class="text-white"> {{hero.heroHeader}}
+      </h1>
+    {% endif %}
+    {% if hero.heroSubtitle %}
+      <h2>
+        <div class="text-white">{{hero.heroSubtitle}}
+      </h2>
+    {% endif %}
+      <div class="inline-flex">
+      {% set relatedEntry = hero.relatedEntry.one() ?? null %}
+      {% set relatedCategory = hero.relatedCategory.one() ?? null %}
+
+      {% if relatedEntry or relatedCategory %}
+        {% if relatedEntry %}
+          <a href="{{relatedEntry.url}}"><button>
+        {% elseif relatedCategory %}
+          <a href="{{relatedCategory.url}}"><button>
+        {% endif %}
+
+        {% if hero.buttonText %}
+           {{hero.buttonText}}
+           {% else %}
+           Learn More
+        {% endif %}
+       </button></a>
+     {% endif %}
+       </div>
+    </div>
+{% endif %}

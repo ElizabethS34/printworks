@@ -1,0 +1,19 @@
+columnSuffix: oqeqmegu
+contentColumnType: text
+fieldGroup: 051b36ef-55b7-4535-8319-bac4a92c542d # Common
+handle: headerBlock
+instructions: ''
+name: 'Header Block'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

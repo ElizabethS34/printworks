@@ -1,0 +1,35 @@
+{% extends "_layout" %}
+
+{% block content %}
+
+{% set subCategories = craft.categories.descendantOf(category).descendantDist(1).all() %}
+
+<div class="display-heading">{{category.title}}</div>
+  <div class="full-product-display">
+  <div class="flex flex-wrap justify-center ">
+
+  {% if subCategories %}
+      {% for productCategory in subCategories %}
+
+        {% include "partials/category-card" %}
+        
+      {% endfor %}
+      
+      {% set excludedProductIds = craft.entries.section('product').relatedTo(subCategories).ids() %}
+      {% set productQuery = craft.entries.section('product').relatedTo(category).id(excludedProductIds ? ['not']|merge(excludedProductIds) :null).orderBy('priorityProduct desc, title').all() %}
+  {% else %}
+      {% set productQuery = craft.entries.section('product').relatedTo(category).orderBy('priorityProduct desc, title').all() %}
+  {% endif %}
+  {% if productQuery %}  
+     {% for product in productQuery %}
+
+      {% include "partials/product-card" %}
+
+    {% endfor %}
+  {% endif %}
+  {% if subCategories == false and productQuery == false %}
+    <div>Products Coming Soon</div>
+  {% endif %}
+    
+
+{% endblock %}

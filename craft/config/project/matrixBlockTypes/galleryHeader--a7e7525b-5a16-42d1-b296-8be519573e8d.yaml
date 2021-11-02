@@ -1,0 +1,41 @@
+field: 6416ecd9-732b-4444-88ba-1fe1a76bfcd8 # Gallery
+fieldLayouts:
+  43d1e83e-0971-4528-a452-dcdd43d208c6:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 96cd4cf8-636f-4fc4-bbf7-03f67ec25ffe # Gallery Header
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  96cd4cf8-636f-4fc4-bbf7-03f67ec25ffe: # Gallery Header
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: galleryHeader
+    instructions: ''
+    name: 'Gallery Header'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: galleryHeader
+name: 'Gallery Header'
+sortOrder: 1

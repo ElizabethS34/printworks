@@ -1,0 +1,20 @@
+columnSuffix: jvgxbksm
+contentColumnType: integer(10)
+fieldGroup: c26cdf24-9153-4a54-875e-6c1cef19f1b2 # Products
+handle: productId
+instructions: ''
+name: 'Product ID'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: null
+  previewCurrency: ''
+  previewFormat: none
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number
