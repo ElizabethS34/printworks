@@ -54,7 +54,7 @@ class DefaultController extends Controller
      *         The actions must be in 'kebab-case'
      * @access protected
      */
-    protected $allowAnonymous = ['index', 'basket', 'basket-destroy', 'basket-add'];
+    protected $allowAnonymous = ['index', 'basket', 'basket-destroy', 'basket-add', 'personalise'];
 
     // Public Methods
     // =========================================================================
