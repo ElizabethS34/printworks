@@ -1,4 +1,4 @@
-dateModified: 1635848176
+dateModified: 1652359027
 email:
   fromEmail: $EMAIL_FROM
   fromName: 'The Print Works'
@@ -14,6 +14,7 @@ meta:
     0f4b1a1c-c136-435d-b1e1-757a42a47698: 'related Category' # related Category
     1c97081f-2797-4209-8bea-c113085ba11a: 'Body Text' # Body Text
     1f7242ac-cc56-449d-9a96-849bd5f5c36e: 'Customer Images' # Customer Images
+    1fc6f681-1356-426f-b633-5395521c8814: 'Footer Navigation' # Footer Navigation
     2a5bb6f4-e84b-4005-bfe7-64790565f3c0: 'Gallery Image' # Gallery Image
     2b21e584-2e01-4547-8010-5c404669c74d: Role # Role
     2b468386-2e06-4f21-950b-563365671b44: Strip # Strip
@@ -816,5 +817,5 @@ system:
   live: true
   name: 'The Print Works'
   retryDuration: null
-  schemaVersion: 3.7.8
+  schemaVersion: 3.7.33
   timeZone: UTC

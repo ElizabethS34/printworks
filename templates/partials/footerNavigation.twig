@@ -1,0 +1,31 @@
+{% set navPages = craft.categories.group('footerNavigation').all() %}
+
+  <ul class="nav flex flex-wrap">
+      {% nav navPage in navPages %}
+
+      {% set relatedEntry = navPage.relatedEntry.one() ?? null %}
+      {% set relatedCategory = navPage.relatedCategory.one() ?? null %}
+      {% set relatedUrl = navPage.relatedUrl.one() ?? null %}
+          <li class="nav-button">
+            {% if relatedEntry %}
+              <a href="{{ relatedEntry.url }}">{{ navPage.title }}</a>
+            {% elseif relatedCategory %}
+              <a href="{{ relatedCategory.url }}">{{ navPage.title }}</a>
+            {% elseif relatedUrl %}
+              <a href="{{ relatedUrl.url }}">{{ navPage.title }}</a>
+            {% endif %}
+
+              {% ifchildren %}
+                  <ul class="nav-button-child">
+                      {% children %}
+                  </ul>
+              {% endifchildren %}
+          </li>
+      {% endnav %}
+      <div class="nav-button hidden lg:block">
+        {% include "forms/search" %}
+      </div>
+      <div class="hidden nav-button">
+        <a class="no-underline text-white" href="/basket">Basket</a>
+      </div>
+  </ul>
